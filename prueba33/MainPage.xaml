@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba33.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+            <!-- Logo con sombreado -->
+            <Frame Padding="5" HasShadow="False" CornerRadius="15" BackgroundColor="White" HorizontalOptions="Center">
+                <Image Source="logo.png" HeightRequest="80" WidthRequest="80" Aspect="AspectFit"/>
+            </Frame>
+
+            <Label Text="Pilar Bakery and Pastry Shop." FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black"/>
+            <Label Text="Iniciar Sesión" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black"/>
+
+            <!-- Campos de entrada con bordes redondeados -->
+            <Frame Padding="0" CornerRadius="10" BackgroundColor="#F5F5F5">
+                <Entry x:Name="usernameEntry" Placeholder="Nombre de usuario" TextColor="Black" PlaceholderColor="Gray" Margin="10"/>
+            </Frame>
+
+            <Frame Padding="0" CornerRadius="10" BackgroundColor="#F5F5F5">
+                <Entry x:Name="passwordEntry" Placeholder="Contraseña" IsPassword="True" TextColor="Black" PlaceholderColor="Gray" Margin="10"/>
+            </Frame>
+
+            <!-- Botón de inicio con mejor diseño -->
+            <Button Text="Iniciar"
+                    Clicked="OnLoginButtonClicked"
+                    BackgroundColor="#FF5A5F"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="50"/>
+
+            <!-- Redes sociales -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+                <Button Text="Twitter"
+                        BackgroundColor="#1DA1F2"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        WidthRequest="120"
+                        HeightRequest="40"/>
+
+                <Button Text="YouTube"
+                        BackgroundColor="Red"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        CornerRadius="10"
+                        WidthRequest="120"
+                        HeightRequest="40"
+                        Clicked="OnYouTubeButtonClicked"/>
+            </StackLayout>
+
+            <!-- Opciones de recuperación y registro -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="¿Olvidó la contraseña?" TextColor="Blue" FontSize="Small">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Text="Registrarse" TextColor="Red" Margin="10,0,0,0" FontSize="Small">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

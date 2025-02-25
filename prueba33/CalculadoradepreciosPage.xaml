@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba33.CalculadoradepreciosPage"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="20" BackgroundColor="White">
+
+                <!-- Título -->
+                <Label Text="Calculadora de Precios" FontSize="26" FontAttributes="Bold" TextColor="#007ACC"
+                   HorizontalOptions="Center" />
+
+                <!-- Margen de ganancia -->
+                <Frame Padding="15" CornerRadius="10" BackgroundColor="#F5F5F5">
+                    <StackLayout Spacing="10">
+                        <Label Text="Porcentaje de margen de ganancia (%)" FontSize="18" TextColor="#333333"/>
+                        <Entry x:Name="PorcentajeGananciaEntry" Keyboard="Numeric" Placeholder="Ej. 20%" 
+                           BackgroundColor="White" TextColor="#333333" PlaceholderColor="Gray"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Ingredientes -->
+                <Frame Padding="15" CornerRadius="10" BackgroundColor="#F5F5F5">
+                    <StackLayout Spacing="10">
+                        <Label Text="Ingredientes" FontSize="18" FontAttributes="Bold" TextColor="#007ACC"/>
+
+                        <!-- Cabecera de la tabla de ingredientes -->
+                        <Grid Padding="5" BackgroundColor="#D6EAF8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="1*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Nombre" FontAttributes="Bold" Grid.Column="0" HorizontalOptions="Center" TextColor="Black"/>
+                            <Label Text="Cantidad" FontAttributes="Bold" Grid.Column="1" HorizontalOptions="Center" TextColor="Black"/>
+                            <Label Text="Precio Unidad" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="Center" TextColor="Black"/>
+                        </Grid>
+
+                        <!-- Contenedor de Ingredientes -->
+                        <StackLayout x:Name="IngredientesContainer" Padding="10" Spacing="10" BackgroundColor="#EAEAEA">
+                            <!-- Aquí se añadirán dinámicamente los ingredientes -->
+                        </StackLayout>
+
+                        <!-- Botón Añadir Ingrediente -->
+                        <Button Text="Añadir Ingrediente" Clicked="OnAddIngredienteClicked" 
+                            BackgroundColor="#007ACC" TextColor="White" CornerRadius="10"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Costos adicionales -->
+                <Frame Padding="15" CornerRadius="10" BackgroundColor="#F5F5F5">
+                    <StackLayout Spacing="10">
+                        <Label Text="Costos adicionales (gas, agua, luz)" FontSize="18" TextColor="#333333"/>
+                        <Entry x:Name="CostosAdicionalesEntry" Keyboard="Numeric" Placeholder="Costo total adicional" 
+                           BackgroundColor="White" TextColor="#333333" PlaceholderColor="Gray"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Cantidad producida -->
+                <Frame Padding="15" CornerRadius="10" BackgroundColor="#F5F5F5">
+                    <StackLayout Spacing="10">
+                        <Label Text="Cantidad de panes producidos" FontSize="18" TextColor="#333333"/>
+                        <Entry x:Name="CantidadProducidaEntry" Keyboard="Numeric" Placeholder="Cantidad producida" 
+                           BackgroundColor="White" TextColor="#333333" PlaceholderColor="Gray"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Botón Calcular -->
+                <Button Text="Calcular" Clicked="OnCalcularClicked" 
+                    BackgroundColor="Green" TextColor="White" FontSize="18" CornerRadius="10" 
+                    HeightRequest="50"/>
+
+                <!-- Resultado -->
+                <Frame Padding="15" CornerRadius="10" BackgroundColor="#E8F5E9">
+                    <Label x:Name="ResultadoLabel" Text="Precio por unidad: $" FontSize="22" 
+                       FontAttributes="Bold" TextColor="Green" HorizontalOptions="Center"/>
+                </Frame>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

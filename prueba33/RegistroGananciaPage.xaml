@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="prueba33.DataBase.RegistroGananciaPage"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <StackLayout Padding="10" BackgroundColor="#F5F5F5">
+
+            <!-- Sección de Entrada de Datos -->
+            <Frame Padding="15" BackgroundColor="White" CornerRadius="10" HasShadow="True">
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Producto" Grid.Row="0" Grid.Column="0" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Entry x:Name="productoEntry" Placeholder="Ej: Pan dulce" BackgroundColor="#FAFAFA" TextColor="Black" Grid.Row="0" Grid.Column="1" />
+
+                    <Label Text="Precio por unidad" Grid.Row="1" Grid.Column="0" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Entry x:Name="precioEntry" Placeholder="$0.00" Keyboard="Numeric" BackgroundColor="#FAFAFA" TextColor="Black" Grid.Row="1" Grid.Column="1" />
+
+                    <Label Text="Cantidad vendida" Grid.Row="2" Grid.Column="0" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Entry x:Name="cantidadEntry" Placeholder="0" Keyboard="Numeric" BackgroundColor="#FAFAFA" TextColor="Black" Grid.Row="2" Grid.Column="1" />
+
+                    <Label Text="Total" Grid.Row="3" Grid.Column="0" FontAttributes="Bold" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Label x:Name="totalLabel" Text="0.00" FontAttributes="Bold" TextColor="Black" Grid.Row="3" Grid.Column="1" />
+
+                    <Label Text="Fecha" Grid.Row="4" Grid.Column="0" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <DatePicker x:Name="fechaPicker" Date="{x:Static system:DateTime.Now}" TextColor="Black" Grid.Row="4" Grid.Column="1" />
+                </Grid>
+            </Frame>
+
+            <!-- Botones -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10" Margin="5,10,5,0">
+                <Button Text="Calcular" Clicked="OnCalcularTotalClicked"
+            BackgroundColor="#007BFF" TextColor="White" 
+            CornerRadius="12" HeightRequest="40" WidthRequest="100" />
+
+                <Button Text="Guardar" Clicked="OnGuardarRegistroClicked"
+            BackgroundColor="#28A745" TextColor="White"
+            CornerRadius="12" HeightRequest="40" WidthRequest="100" />
+
+                <Button Text="Eliminar" Clicked="OnEliminarUltimoClicked"
+            BackgroundColor="#FF5A5F" TextColor="White"
+            CornerRadius="12" HeightRequest="40" WidthRequest="100" />
+            </StackLayout>
+
+            <!-- Lista de Registros -->
+            <Frame Padding="10" BackgroundColor="White" CornerRadius="10" HasShadow="True" Margin="0,20,0,0">
+                <Label Text="Registros Guardados" FontSize="18" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+                <CollectionView x:Name="gananciaListView" Margin="0,10,0,0">
+                    <!-- Encabezados -->
+                    <CollectionView.Header>
+                        <Grid Padding="8" BackgroundColor="#D6EAF8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Producto" FontAttributes="Bold" Grid.Column="0" TextColor="Black" />
+                            <Label Text="Precio" FontAttributes="Bold" Grid.Column="1" TextColor="Black" />
+                            <Label Text="Cantidad" FontAttributes="Bold" Grid.Column="2" TextColor="Black" />
+                            <Label Text="Total" FontAttributes="Bold" Grid.Column="3" TextColor="Black" />
+                            <Label Text="Fecha" FontAttributes="Bold" Grid.Column="4" TextColor="Black" />
+                        </Grid>
+                    </CollectionView.Header>
+
+                    <!-- Datos -->
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Frame Grid.Column="0" Padding="5" BorderColor="Black" CornerRadius="5" HasShadow="False">
+                                    <Label Text="{Binding Producto}" TextColor="Black" />
+                                </Frame>
+                                <Frame Grid.Column="1" Padding="5" BorderColor="Black" CornerRadius="5" HasShadow="False">
+                                    <Label Text="{Binding PrecioPorUnidad, StringFormat='{0:C}'}" TextColor="Black" />
+                                </Frame>
+                                <Frame Grid.Column="2" Padding="5" BorderColor="Black" CornerRadius="5" HasShadow="False">
+                                    <Label Text="{Binding CantidadVendida}" TextColor="Black" />
+                                </Frame>
+                                <Frame Grid.Column="3" Padding="5" BorderColor="Black" CornerRadius="5" HasShadow="False">
+                                    <Label Text="{Binding Total, StringFormat='{0:C}'}" TextColor="Black" />
+                                </Frame>
+                                <Frame Grid.Column="4" Padding="5" BorderColor="Black" CornerRadius="5" HasShadow="False">
+                                    <Label Text="{Binding Fecha, StringFormat='{0:MM/dd/yyyy}'}" TextColor="Black" />
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

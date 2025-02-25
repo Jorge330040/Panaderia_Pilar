@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\quienessomospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\quienessomospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\registrogananciapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\registrogananciapage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\inventariopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\inventariopage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\recoverpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\recoverpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\calculadoradepreciospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\calculadoradepreciospage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\inventariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\inventariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\ganancias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\ganancias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\registrogananciapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\registrogananciapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\database\\gananciasdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\database\\gananciasdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\database\\inventariodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\database\\inventariodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|c:\\users\\herrera-family\\source\\repos\\prueba33\\prueba33\\flyoutpage1flyoutmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89D71F68-0BB2-4A8C-9752-26FF31982A6E}|prueba33\\Panaderia y pasteleria pilar.csproj|solutionrelative:prueba33\\flyoutpage1flyoutmenuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "prueba33\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "prueba33\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:29:54.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecoverPasswordPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RecoverPasswordPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\RecoverPasswordPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RecoverPasswordPage.xaml",
+              "RelativeToolTip": "prueba33\\RecoverPasswordPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T23:06:33.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventarioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\InventarioPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\InventarioPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\InventarioPage.xaml",
+              "RelativeToolTip": "prueba33\\InventarioPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T10:48:58.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistroGananciaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegistroGananciaPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\RegistroGananciaPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegistroGananciaPage.xaml",
+              "RelativeToolTip": "prueba33\\RegistroGananciaPage.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-18T04:52:26.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegisterPage.xaml",
+              "RelativeToolTip": "prueba33\\RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T23:25:15.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuienesSomosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\QuienesSomosPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\QuienesSomosPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\QuienesSomosPage.xaml",
+              "RelativeToolTip": "prueba33\\QuienesSomosPage.xaml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwE0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T13:37:09.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\MainPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\MainPage.xaml",
+              "RelativeToolTip": "prueba33\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-02T07:50:26.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistroGananciaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegistroGananciaPage.xaml.cs",
+              "RelativeDocumentMoniker": "prueba33\\RegistroGananciaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\RegistroGananciaPage.xaml.cs",
+              "RelativeToolTip": "prueba33\\RegistroGananciaPage.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAACBjwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T04:54:37.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "prueba33\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\MainPage.xaml.cs",
+              "RelativeToolTip": "prueba33\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:24:05.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalculadoradepreciosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\CalculadoradepreciosPage.xaml",
+              "RelativeDocumentMoniker": "prueba33\\CalculadoradepreciosPage.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\CalculadoradepreciosPage.xaml",
+              "RelativeToolTip": "prueba33\\CalculadoradepreciosPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-16T12:30:54.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InventarioPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\InventarioPage.xaml.cs",
+              "RelativeDocumentMoniker": "prueba33\\InventarioPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\InventarioPage.xaml.cs",
+              "RelativeToolTip": "prueba33\\InventarioPage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADgvzkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T22:10:18.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\App.xaml.cs",
+              "RelativeDocumentMoniker": "prueba33\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\App.xaml.cs",
+              "RelativeToolTip": "prueba33\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T04:59:29.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Inventario.cs",
+              "RelativeDocumentMoniker": "prueba33\\Inventario.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Inventario.cs",
+              "RelativeToolTip": "prueba33\\Inventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T01:52:28.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Usuario.cs",
+              "RelativeDocumentMoniker": "prueba33\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Usuario.cs",
+              "RelativeToolTip": "prueba33\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T02:04:12.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ganancias.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Ganancias.cs",
+              "RelativeDocumentMoniker": "prueba33\\Ganancias.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\Ganancias.cs",
+              "RelativeToolTip": "prueba33\\Ganancias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T04:48:31.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\App.xaml",
+              "RelativeDocumentMoniker": "prueba33\\App.xaml",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\App.xaml",
+              "RelativeToolTip": "prueba33\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-18T04:58:42.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InventarioDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\DataBase\\InventarioDatabase.cs",
+              "RelativeDocumentMoniker": "prueba33\\DataBase\\InventarioDatabase.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\DataBase\\InventarioDatabase.cs",
+              "RelativeToolTip": "prueba33\\DataBase\\InventarioDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:26:04.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GananciasDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\DataBase\\GananciasDatabase.cs",
+              "RelativeDocumentMoniker": "prueba33\\DataBase\\GananciasDatabase.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\DataBase\\GananciasDatabase.cs",
+              "RelativeToolTip": "prueba33\\DataBase\\GananciasDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T04:44:23.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FlyoutPage1FlyoutMenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\FlyoutPage1FlyoutMenuItem.cs",
+              "RelativeDocumentMoniker": "prueba33\\FlyoutPage1FlyoutMenuItem.cs",
+              "ToolTip": "C:\\Users\\Herrera-Family\\source\\repos\\prueba33\\prueba33\\FlyoutPage1FlyoutMenuItem.cs",
+              "RelativeToolTip": "prueba33\\FlyoutPage1FlyoutMenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:34:32.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
